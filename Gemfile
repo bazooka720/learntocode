@@ -13,7 +13,6 @@ end
 
 group :development, :test do
   gem 'brakeman', '4.3.1'
-  gem 'rspec-mocks'
   gem 'rspec-rails', '~> 3.4.2'
   gem 'factory_girl_rails'
   gem 'faker'
