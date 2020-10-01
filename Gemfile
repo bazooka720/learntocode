@@ -2,6 +2,20 @@ source 'http://rubygems.org'
 ruby '~> 2.5'
 gem 'rails', '~> 6.0', '>= 6.0.2.1'
 gem 'pg', '~> 0.18.4' 
+gem 'mysql2', '0.3.19'
+gem 'redis', '3.2.1'
+gem 'sidekiq','3.4.2'
+gem 'seed-fu', '2.3.4'
+gem 'will_filter', '3.1.11'
+gem 'kaminari', '0.16.3'
+gem 'twilio-ruby', '4.2.1'
+gem 'global_phone', '1.0.1'
+gem 'lazy_high_charts', '1.5.4'
+gem 'rbtrace', '0.4.11', :require => false
+gem 'whedon', '~> 0.0.3'
+gem 'device_detector', '~> 1.0'
+gem 'typhoeus', '~> 1.3.0'
+gem 'marginalia', '~> 1.8'
 
 
 group :development, :test do
